@@ -1,5 +1,8 @@
 module.exports = {
   entry:  __dirname + "/app/js/main.js",
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
+  },
   output: {
     path: __dirname + "/public",
     filename: "bundle.js"
@@ -23,6 +26,14 @@ module.exports = {
       {
         test: /\.less$/,
         loader: "style-loader!css-loader!less-loader"
+      },
+      {
+        test: /bootstrap\/js\//,
+        loader: 'imports?jQuery=jquery'
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot|svg)$/,
+        loader: "url"
       }
     ]
   },

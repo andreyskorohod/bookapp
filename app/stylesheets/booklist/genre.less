@@ -1,0 +1,48 @@
+@import "../_variables.less";
+
+.genreitems {
+    margin: 100px 0;
+
+    .genretitle {
+        font-size: 25px;
+        cursor: default;
+        margin-bottom: 30px;
+    }
+
+    .bookrow {
+        margin-bottom: 20px;
+
+        .booktitle,
+        .author {
+            transition: 0.5s;
+        }
+
+        .booktitle:hover,
+        .author:hover {
+            color: @hovercolor;
+        }
+
+        .booktitle {
+            font-size: 25px;
+        }
+
+        .author {
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+    .backButton,
+    .homepageButton {
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    .backButton:hover,
+    .homepageButton:hover {
+        color: @hovercolor;
+    }
+
+    .homepageButton {
+        margin-top: 50px;
+    }
+}

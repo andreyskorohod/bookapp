@@ -1,3 +1,5 @@
+@import "./_variables.less";
+
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
@@ -10,6 +12,8 @@ html {
 
 body {
   margin: 0;
+  background: @bgcolor;
+  font-family: serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
@@ -17,6 +21,22 @@ h1, h2, h3, h4, h5, h6, p, ul {
   padding: 0;
 }
 
-.aboutbook {
-    color: red;
+ul {
+    list-style-type: none;
 }
+
+a,
+a:active,
+a:visited,
+a:hover {
+    color: @textcolor;
+    text-decoration: none !important;
+}
+
+// .authorInfo,
+// .bookInfo,
+// .homepage,
+// .authorList,
+// .aboutbook {
+//     margin: 150px;
+// }
