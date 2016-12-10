@@ -1,0 +1,44 @@
+@import "../_variables.less";
+
+.aboutbook {
+    margin: 100px 0;
+
+    .pagetitle {
+        font-size: 25px;
+        margin-bottom: 50px;
+        cursor: default;
+    }
+
+    .bookrow {
+        margin-bottom: 20px;
+
+        .booktitle,
+        .author {
+            transition: 0.5s;
+        }
+
+        .booktitle:hover,
+        .author:hover {
+            color: @hovercolor;
+        }
+
+        .booktitle {
+            font-size: 25px;
+        }
+
+        .author {
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+
+    .backButton {
+        font-size: 15px;
+        margin-top: 30px;
+        transition: 0.5s;
+    }
+
+    .backButton:hover {
+        color: @hovercolor;
+    }
+}

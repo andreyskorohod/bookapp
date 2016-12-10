@@ -1,0 +1,72 @@
+[
+    {
+        "book": {
+            "bookID": "harry-potter-1",
+            "booktitle": "Harry Potter and the Philosopher's Stone",
+            "genre": "fantasy",
+            "description": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series and J. K. Rowling's debut novel, first published in 1997 by Bloomsbury. It was published in the United States as Harry Potter and the Sorcerer's Stone by Scholastic Corporation in 1998. The plot follows Harry Potter, a young wizard who discovers his magical heritage as he makes close friends and a few enemies in his first year at the Hogwarts School of Witchcraft and Wizardry. With the help of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just a year old."
+        },
+        "author":
+        {
+            "authorID": "j-k-rowling",
+            "name": "J. K. Rowling",
+            "biography": "British writter"
+        }
+    },
+    {
+        "book": {
+            "bookID": "harry-potter-2",
+            "booktitle": "Harry Potter and the Chamber of Secrets",
+            "genre": "fantasy",
+            "description": "Harry Potter and the Chamber of Secrets is the second novel in the Harry Potter series, written by J. K. Rowling. The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the Chamber of Secrets has been opened and that the heir of Slytherin would kill all pupils who do not come from all-magical families. These threats are found after attacks which leave residents of the school petrified (frozen like stone). Throughout the year, Harry and his friends Ronald Weasley and Hermione Granger investigate the attacks."
+        },
+        "author":
+        {
+            "authorID": "j-k-rowling",
+            "name": "J. K. Rowling",
+            "biography": "British writter"
+        }
+    },
+    {
+        "book": {
+            "bookID": "on-the-road",
+            "booktitle": "On the Road",
+            "genre": "Beat",
+            "description": "On the Road is a novel by American writer Jack Kerouac, based on the travels of Kerouac and his friends across America. It is considered a defining work of the postwar Beat and Counterculture generations, with its protagonists living life against a backdrop of jazz, poetry, and drug use. The novel, published in 1957, is a roman à clef, with many key figures in the Beat movement, such as William S. Burroughs (Old Bull Lee), Allen Ginsberg (Carlo Marx) and Neal Cassady (Dean Moriarty) represented by characters in the book, including Kerouac himself as the narrator Sal Paradise."
+        },
+        "author":
+        {
+            "authorID": "jack-kerouac",
+            "name": "Jack Kerouac",
+            "biography": "An American novelist and poet. He is considered a literary iconoclast and, alongside William S. Burroughs and Allen Ginsberg, a pioneer of the Beat Generation. Kerouac is recognized for his method of spontaneous prose. Thematically, his work covers topics such as Catholic spirituality, jazz, promiscuity, Buddhism, drugs, poverty, and travel. He became an underground celebrity and, with other beats, a progenitor of the hippie movement, although he remained antagonistic toward some of its politically radical elements. In 1969, aged 47, Kerouac died from internal bleeding due to long-term alcohol abuse. Since his death, Kerouac's literary prestige has grown, and several previously unseen works have been published. All of his books are in print today, including The Town and the City, On the Road, Doctor Sax, The Dharma Bums, Mexico City Blues, The Subterraneans, Desolation Angels, Visions of Cody, The Sea Is My Brother, and Big Sur."
+        }
+    },
+    {
+        "book": {
+            "bookID": "iron-horse",
+            "booktitle": "Iron Horse",
+            "genre": "Beat",
+            "description": "Iron Horse is a poem written by Allen Ginsberg. It is an important part of his The Fall of America: Poems of These States sequence of poems written in the mid-to-late 1960s. Iron Horse was published in January 1973 by Coach House Press of Toronto, Canada. Also in 1973 in Göttingen, Germany by Udo Breger's Expanded Media Editions. The first American edition was a 1974 booklet by City Lights, San Francisco."
+        },
+        "author":
+        {
+            "authorID": "allen-ginsberg",
+            "name": "Allen Ginsberg",
+            "biography": "An American poet and one of the leading figures of both the Beat Generation of the 1950s and the counterculture that soon would follow."
+        }
+    },
+    {
+        "book": {
+            "bookID": "process",
+            "booktitle": "Process",
+            "genre": "classical",
+            "description": "Novel written by Franz Kafka from 1914 to 1915 and published in 1925. One of his best-known works, it tells the story of a man arrested and prosecuted by a remote, inaccessible authority, with the nature of his crime revealed neither to him nor to the reader. Heavily influenced by Dostoyevsky's Crime and Punishment and The Brothers Karamazov, Kafka even went so far as to call Dostoyevsky a blood relative. Like Kafka's other novels, The Trial was never completed, although it does include a chapter which brings the story to an end."
+        },
+        "author":
+        {
+            "authorID": "f-kafka",
+            "name": "F. Kafka",
+            "biography": "A German-language writer of novels and short stories who is widely regarded as one of the major figures of 20th-century literature."
+        }
+    }
+]

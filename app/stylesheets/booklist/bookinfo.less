@@ -1,0 +1,50 @@
+@import "../_variables.less";
+
+.bookInfo {
+    margin: 100px 0;
+
+    .abouttitle {
+        font-size: 25px;
+        margin-bottom: 50px;
+        cursor: default;
+    }
+
+    .author,
+    .genre,
+    .backButton,
+    .homepageButton,
+    .description {
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    .author:hover,
+    .genre:hover,
+    .backButton:hover,
+    .homepageButton:hover {
+        color: @hovercolor;
+    }
+
+    .booktitle {
+        font-size: 25px;
+        cursor: default;
+    }
+
+    .author {
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .genre {
+        margin-bottom: 5px;
+    }
+
+    .description {
+        text-align: justify;
+        cursor: default;
+    }
+
+    .homepageButton {
+        margin-top: 50px;
+    }
+}
